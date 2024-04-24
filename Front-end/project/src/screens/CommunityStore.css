@@ -1,0 +1,57 @@
+.communityStoreContents{
+    background-color: white;
+    min-height: 400px;
+}
+.storeTitle {
+    text-align: left;
+}
+
+.communityStoreButtons{
+    display: flex;
+    justify-content: flex-end;
+}
+.storeGroupDropdown > .btn-primary{
+    background-color: #F6F9FC;
+    border: none;
+    border-radius: 45px;
+    min-width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #007BFC;
+}
+.storeGroupDropdown > .btn-primary:hover{
+    background-color: rgb(229, 237, 243);
+    color: #007BFC;
+}
+.storeGroupDropdown > .btn.show{
+    background-color: rgb(229, 237, 243);
+    color: #007BFC;
+}
+.storeGroupDropdown .dropdown-item:hover{
+    color: #007BFC;
+}
+
+
+.storeUpload{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background-color: #007BFC;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+}
+.storeUpload:hover{
+    background-color: #0f74e1;
+}
+.storeUpload{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.storeCardElementArea{
+    background-color: transparent;
+    margin-top: 30px;
+}

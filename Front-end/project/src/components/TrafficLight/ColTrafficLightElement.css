@@ -1,0 +1,42 @@
+.colTrafficLight{
+    background-color: #E7E7E7;
+    width: 125px;
+    height: 400px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px 1px gray;
+}
+
+.colCircle{
+    border-radius: 45px;
+    width: 90px;
+    height: 90px;
+    margin: 4px 0px;
+    border: 5px solid rgb(98, 97, 97);
+    box-shadow: 3px 3px 5px 1px gray;
+
+}
+
+.trafficLightImg{
+    border-radius: 45px;
+    width: 75px;
+    height: 75px;
+    margin: 2.5px 0px;
+}
+
+
+.green{
+    background-color: #00D160;
+}
+.yellow{
+    background-color: #F9D100;
+}
+.red{
+    background-color: #EA3209;
+}
+.gray{
+    background-color: gray;
+}

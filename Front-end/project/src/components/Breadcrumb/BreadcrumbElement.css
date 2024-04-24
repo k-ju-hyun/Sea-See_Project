@@ -1,0 +1,19 @@
+.breadcrumbAll{
+    margin-top: 100px;
+}
+
+.customLink > a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    cursor: default;
+}
+.customLinkActive > a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+.customLinkNow > a{
+    text-decoration: none;
+    color: #007BFC;
+    cursor: default;
+}

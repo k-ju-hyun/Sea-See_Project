@@ -1,0 +1,49 @@
+
+.homeContents{
+    background-color: white;
+    background-image: url('../image/wave.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    animation: slideDown linear infinite alternate;
+    animation-duration: 10s;
+    
+}
+
+@keyframes slideDown {
+  0% {
+    background-position: right top;
+  }
+  100% {
+    background-position: left 120% bottom;
+  }
+}
+
+.homeContents button{
+  position:absolute;
+  border-radius: 30px;
+  width: 200px;
+  height: 70px;
+  top: 70%;
+  left: 30%;
+  background-color: black;
+  border-color: black;
+  color: white;
+  font-size: 150%;
+  transform:translate(-50%, -50%);
+}
+
+.homeContents p {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  margin-top: 70px;
+}

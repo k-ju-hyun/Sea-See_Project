@@ -1,0 +1,60 @@
+*{
+    --circleSize: 3000px;
+  }
+
+  .waveCircle {
+    position: absolute;
+    width: var(--circleSize);
+    height: var(--circleSize);
+    position: relative;
+    overflow: hidden;
+    background: #4636FC;        
+    transform: translate3d(0, 0, 0);
+    z-index: -4;
+  }
+
+  .wave-one {
+    width: var(--circleSize);
+    height: var(--circleSize);
+    position: absolute;
+    overflow: hidden;
+
+    top: -1%;
+    border-radius: 45%;
+    background: #5170FD;
+    animation: move 20s infinite linear;
+    z-index: -3;
+  }
+
+  .wave-two {
+    width: var(--circleSize);
+    height: var(--circleSize);
+    position: absolute;
+    overflow: hidden;
+
+    top: -5%;
+    border-radius: 45%;
+    background: #60ABFB;
+    animation: move 15s infinite linear;
+    z-index: -2;
+  }
+
+  .wave-three {
+    width: var(--circleSize);
+    height: var(--circleSize);
+    position: absolute;
+    overflow: hidden;
+
+    top: -10%;
+    border-radius: 45%;
+    background: #FFFFFF;
+    animation: move 10s infinite linear;
+    z-index: -1;
+  }
+
+
+  @keyframes move {
+    100% {
+      transform: rotate(360deg);
+    }
+  }

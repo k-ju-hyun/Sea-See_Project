@@ -1,0 +1,57 @@
+.communityPhotoContents{
+    background-color: white;
+    min-height: 400px;
+}
+.photoTitle {
+    text-align: left;
+}
+
+.communityPhotoButtons{
+    display: flex;
+    justify-content: flex-end;
+}
+.photoGroupDropdown > .btn-primary{
+    background-color: #F6F9FC;
+    border: none;
+    border-radius: 45px;
+    min-width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #007BFC;
+}
+.photoGroupDropdown > .btn-primary:hover{
+    background-color: rgb(229, 237, 243);
+    color: #007BFC;
+}
+.photoGroupDropdown > .btn.show{
+    background-color: rgb(229, 237, 243);
+    color: #007BFC;
+}
+.photoGroupDropdown .dropdown-item:hover{
+    color: #007BFC;
+}
+
+
+.photoUpload{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background-color: #007BFC;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+}
+.photoUpload:hover{
+    background-color: #0f74e1;
+}
+.photoUpload{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.photoCardElementArea{
+    background-color: transparent;
+    margin-top: 30px;
+}

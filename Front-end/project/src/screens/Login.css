@@ -1,0 +1,71 @@
+.Login{
+    background-color: #F6F9FC;
+    min-height: 750px;
+}
+.loginContents{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+
+.loginTitle{
+    font-weight: bold;
+    margin-top: 170px;
+}
+
+.loginLeftForm{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+
+.id{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    width: 100%;
+    height: 50px;
+}
+.id:focus{
+    outline: none;
+    border-bottom-color: #007BFC;
+}
+
+.pw{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+.pw:focus{
+    outline: none;
+    border-bottom-color: #007BFC;
+}
+
+.loginButton{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    background-color: #007BFC;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.loginButton:hover{
+    background-color: #1175e0;
+}
+
+.goTo{
+    margin-top: 10px;
+}
+
+.goToJoin{
+    color: black;
+    margin-left: 10px;
+}

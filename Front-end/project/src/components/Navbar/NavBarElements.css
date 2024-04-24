@@ -1,0 +1,51 @@
+.NavbarAll {
+    background-color: white;
+    min-height: 70px;
+}
+.seanseeTitle.navbar-brand{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.me-auto{
+    font-size: 18px;
+}
+.navbarMenu.nav-link:hover{
+    font-weight: bold;
+}
+.navbarMenu.nav-link.active {
+    font-weight: bold;
+}
+.navbarCommunity > .nav-link:hover {
+    font-weight: bold;
+}
+.navbarCommunity.active{
+    color: #007BFC;
+    font-weight: bold;
+}
+
+.me-right{
+    font-size: 18px;
+}
+.navbarLogout.navbar-nav:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbarJoin.nav-link:hover{
+    font-weight: bold;
+}
+.navbarJoin.nav-link.active{
+    font-weight: bold;
+}
+.navbarLogin.nav-link{
+    background-color: #007BFC;
+    border-radius: 45px;
+    min-width: 100px;
+    margin-left: 15px;
+    color: white;
+}
+.navbarLogin.nav-link:hover{
+    background-color: #0f74e1;
+    color: white;
+}

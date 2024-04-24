@@ -1,0 +1,83 @@
+.beachCard{
+    --cardwidth: 500px;
+    --cardheight: 165px;
+}
+
+.beachCard{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F9FC;
+    width: var(--cardwidth);
+    height: var(--cardheight);
+    border-radius: 45px;
+    box-shadow: 3px 3px 10px 1px gray;
+    margin-bottom: 40px;
+    transition-duration: 0.2s;
+}
+
+.beachCard:hover{
+    --cardwidth : 530px;
+    --cardheight : 185px;
+    /* background-color: rgb(0, 0, 0);
+    color : rgb(255, 255, 255); */
+}
+
+.beachCard > img{
+    width: 200px;
+    height: var(--cardheight);
+    background-color: #007BFC;
+    border-radius: 45px 0 0 45px;
+    transition-duration: 0.2s;
+}
+
+.beachCard > div{
+    width: 100%;
+    padding: 15px 30px 10px 20px;
+}
+
+.beachCardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.beachCardContentTitle{
+    width: 100%;
+    text-align: start;
+    font-size: 20px;
+}
+
+.removeButton{
+    background-color: rgb(192, 192, 192);
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 12px;
+}
+.removeButton:hover{
+    background-color: #FF3232;
+}
+
+.beachCardContentBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.beachMore{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.beachMore:hover{
+    color: #007BFC
+}

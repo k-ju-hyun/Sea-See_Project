@@ -1,0 +1,205 @@
+.storeCard{
+    width: 280px;
+    text-align: left;
+    background-color: white;
+    margin: 20px 10px;
+}
+
+.foodImage{
+    background-color: #007BFC;
+    width: 280px;
+    height: 280px;
+    border-radius: 22.5px;
+    object-fit: cover;
+    object-position: center;
+}
+.foodImageHovered{
+    filter: brightness(0.8);
+}
+
+.icon{
+    height: 20px;
+    margin-right: 8px;
+}
+
+.iconText{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.storeCardArea1{
+    margin-top: 3px;
+}
+.storeCardArea2{
+    margin-top: 3px;
+}
+.storeCardArea3{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storeCardTitle{
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: transparent;
+    display: flex;
+}
+.storeCardTitle:hover{
+    color: #555555;
+}
+
+.storeLikeButton{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #adadad;
+    transition: color 0.02s;
+}
+.storeLikeButton:hover{
+    color: #959595;
+}
+.storeLikeButton.likeMe {
+    color: #FF327C;
+}
+
+/* 모달 */
+.storeModal > .modal-dialog{
+    max-width: 420px;
+    border: none;
+}
+.storeModal .modal-content{
+    border-radius: 50px;
+}
+.storeModal{
+    position: relative;
+    top: 50px;
+}
+.storeModalCloseButton{
+    position: absolute;
+    right: -70px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+}
+.storeModalDeleteButton{
+    position: absolute;
+    bottom: -100px;
+    left: 215px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: rgb(247, 247, 247);
+    height: 160px;
+}
+.storeModalDeleteButton:hover{
+    color: rgb(223, 223, 223);
+}
+.storeModalUpdateButton{
+    position: absolute;
+    bottom: -100px;
+    left: 90px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: rgb(247, 247, 247);
+    height: 160px;
+}
+.storeModalUpdateButton:hover{
+    color: rgb(223, 223, 223);
+}
+
+.modalImage{
+    background-color: #007BFC;
+    width: 420px;
+    /* height: 420px; */
+    border-radius: 45px 45px 0 0;
+}
+
+.modalArea0{
+    padding: 10px 20px 30px 20px;
+}
+
+.modalTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.modalContents{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.modalArea1{
+    margin-top: 10px;
+}
+.modalArea2{
+    margin-top: 3px;
+}
+.modalArea3{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalLine{
+    margin: 20px 0;
+}
+
+.modalCommentArea{
+    display: flex;
+    margin-top: 5px;
+}
+.modalCommentArea > button {
+    margin-left: auto;
+    margin-right: 2px;
+    border: none;
+    border-radius: 8px;
+    background-color: #a6a6a6;
+    color: white;
+    font-size: 12px;
+    width: 45px;
+
+}
+.modalCommentArea > button:hover {
+    background-color: #505050;
+}
+
+.inputContainer{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+}
+.modalCommentInput{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    border: 2px solid #c9c9c9;
+    padding-left: 8px;
+    margin-top: 6px;
+    transition: border-color 0.3s;
+}
+.modalCommentInput:focus{
+    border-color: #616161;
+    outline: none;
+}
+
+.submitButton{
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: #a6a6a6;
+}
+.submitButton:hover{
+    color: #555555;
+}
+
+

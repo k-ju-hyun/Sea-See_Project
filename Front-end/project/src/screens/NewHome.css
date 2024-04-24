@@ -1,0 +1,30 @@
+
+
+.newHomeContents{
+  width: 10%;
+}
+
+.newHomeContents button{
+  position:absolute;
+  border-radius: 30px;
+  width: 200px;
+  height: 70px;
+  top: 2500px;
+  left: 70%;
+  background-color: black;
+  border-color: black;
+  color: white;
+  font-size: 150%;
+  transform:translate(-50%, -50%);
+  z-index: 4;
+}
+
+.newHomeContents p {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 2300px;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}

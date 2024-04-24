@@ -1,0 +1,141 @@
+.Join{
+    background-color: #F6F9FC;
+}
+
+.joinContents{
+    background-color: #F6F9FC;
+    display: flex;
+    justify-content: center;
+}
+
+.joinTitle{
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.joinLeftForm{
+    background-color: #F6F9FC;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.joinId{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    width: 240px;
+    height: 40px;
+}
+.joinId:focus{
+    outline: none;
+    border-bottom-color: #007BFC;
+}
+.joinIdCheck{
+    width: 100px;
+    height: 40px;
+    background-color: #007BFC;
+    outline: none;
+    border: none;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.joinIdCheck:hover{
+    background-color: #1175e0;
+}
+
+.errorMessage.available{
+    color: #1175e0;
+}
+.errorMessage.duplicate{
+    color: #FF3232;
+}
+
+
+.joinLeftForm > label{
+    font-weight: bold;
+    margin-top: 35px;
+}
+.joinLeftForm > input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    width: 100%;
+    height: 50px;
+}
+.joinLeftForm > input:focus{
+    outline: none;
+    border-bottom-color: #007BFC;
+}
+
+.normalMessage{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.errorMessage{
+    color: #FF3232;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.spacing{
+    margin-top: 30px;
+}
+
+.checkbox-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+.checkbox-container input[type='checkbox'] {
+  display: none;
+}
+.checkbox-container label.checkbox-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background-color: rgb(193, 193, 193);
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
+.checkbox-container input[type='checkbox']:checked + label.checkbox-custom {
+  background-color: #007BFC;
+}
+
+.checkbox-container > span{
+    margin-left: 35px;
+}
+
+.joinButton{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    background-color: #007BFC;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.joinButton:hover{
+    background-color: #1175e0;
+}
+
+.goTo{
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+.goToLogin{
+    color: black;
+    margin-left: 10px;
+}

@@ -1,0 +1,160 @@
+.UploadStoreTitle{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Photosize{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UploadButton{
+    float: center;
+    width: 30%;
+    height: 50px;
+    outline: none;
+    background-color: #007BFC;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.file-choose {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E6E6E6;
+    border-radius: 25px;
+    text-align: center;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.map-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.store-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.locationstyle {
+    position: center;
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #E6E6E6;
+    padding-left: 20px;
+}
+
+.locationstyle:focus {
+    border-color: #007BFC;
+    outline: none;
+}
+  
+.locationstyle:hover {
+    border: 2px solid #007BFC;
+}
+
+.storenamestyle{
+    position: center;
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #E6E6E6;
+    padding-left: 20px;
+}
+
+.storenamestyle:focus {
+    border-color: #007BFC;
+    outline: none;
+}
+  
+.storenamestyle:hover {
+    border: 2px solid #007BFC;
+}
+
+.contentTitlestyle{
+    position: center;
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #E6E6E6;
+    padding-left: 20px;
+}
+
+.contentTitlestyle:focus {
+    border-color: #007BFC;
+    outline: none;
+}
+  
+.contentTitlestyle:hover {
+    border: 2px solid #007BFC;
+}
+
+.contentstyle{
+    border-radius: 25px;
+    width: 30%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #E6E6E6;
+    resize: vertical;
+    overflow: auto;
+    padding-left: 20px;
+}
+
+.contentstyle:focus {
+    border-color: #007BFC;
+    outline: none;
+}
+
+.contentstyle:hover {
+    border: 2px solid #007BFC;
+}
+
+.upload-dropdown{
+    background-color: #007BFC;
+    border-radius: 25px;
+    text-align: white;
+}
+
+.upload-dropdown .dropdown-item:hover {
+    color: #007BFC;
+}
+
+.upload-dropdown .nav-link {
+    color: white;
+}
+
+.div{
+    width: 30%;
+}
+
+.dropdown-div{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.dropdown{
+    position: right;
+}

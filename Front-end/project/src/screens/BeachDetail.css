@@ -1,0 +1,240 @@
+.space{
+    width: 50px;
+    height: 50px;
+}
+
+.pageTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.BeachDetailColBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.BeachDetailTopContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width:1400px){
+    .BeachDetailTopContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.BeachIntroduce{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 650px;
+    height: 550px;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 2px 2px 3px 1px gray;
+}
+
+.BeachIntroduceTopContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.BeachIntroduceTopImage img{
+    width: 170px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.BeachIntroduceTopText{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.BeachIntroduceTitle{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.BeachIntroduceAddress{
+    font-size: 15px;
+}
+
+.BeachIntroduceBottomContent{
+    text-align: start;
+}
+
+.BeachTrafficLight{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 650px;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 2px 2px 3px 1px gray;
+}
+
+.BeachTrafficLightTitle{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.renewal_date{
+    width: 100%;
+    text-align: end;
+    font-size: 13px;
+}
+
+.BeachTrafficLightContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TrafficLightArea{
+    margin-right: 50px;
+}
+
+.TrafficLightExplain{
+    transition: 3s;
+}
+
+.LightCategory{
+    font-weight: bold;
+    font-size: 20px;
+    transition: 3s;
+}
+
+.explain{
+    width: 300px;
+}
+
+.greenFont{
+    color : rgb(0, 184, 0);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.yellowFont{
+    color : rgb(208, 208, 0);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.redFont{
+    color : red;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.grayFont{
+    color : gray;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+
+}
+
+
+.BeachDetailBottomContent{
+    width: 1300px;
+    height: 700px;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 2px 2px 3px 1px gray;
+}
+
+@media (max-width: 1400px) {
+    .BeachDetailBottomContent{
+        width: 650px;
+        height: 1400px;
+        border-radius: 30px;
+        padding: 50px;
+        box-shadow: 2px 2px 3px 1px gray;
+    }
+}
+
+.AdditionalBeachInfoList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BeachDetailBottomContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1400px) {
+    .BeachDetailBottomContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.BeachDetailBottomContentTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.AdditionalBeachInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.BeachInfoIcon img{
+    width: 80px;
+}
+
+.BeachInfoCategory{
+    font-weight: bold;
+    margin: 0 40px;
+}
+
+.BeachInfoScore{
+    font-weight: bold;
+}
+
+.chart{
+    width: 50%;
+    justify-content: center;
+}
+
+@media (max-width:1400px) {
+    .chart{
+        width: 100%;
+        justify-content: center;
+    }
+}
